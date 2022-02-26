@@ -93,4 +93,7 @@ source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring
 # pkgfile "command not found" handler
 source /usr/share/doc/pkgfile/command-not-found.zsh
 
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
 export FZF_BASE=/usr/share/fzf
