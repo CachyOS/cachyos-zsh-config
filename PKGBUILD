@@ -2,7 +2,7 @@
 
 pkgname=cachyos-zsh-config
 pkgver=1.0.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Zsh configuration for CachyOS"
 arch=(any)
 url="https://github.com/CachyOS/$pkgname"
@@ -15,7 +15,6 @@ depends=('zsh' 'fzf' 'vim'
          'zsh-theme-powerlevel10k'
          'powerline-fonts'
          'oh-my-zsh-git'
-         'find-the-command-git'
          'pkgfile')
 makedepends=('git')
 source=("git+$url.git")
