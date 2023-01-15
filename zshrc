@@ -30,12 +30,6 @@ source $ZSH/oh-my-zsh.sh
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-# Make `vim` the default editor.
-
-export EDITOR='vim'
-
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
 # Ignore commands that start with spaces and duplicates.
 
 export HISTCONTROL=ignoreboth
