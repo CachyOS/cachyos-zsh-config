@@ -90,6 +90,21 @@ alias rmpkg="sudo pacman -Rsn"
 alias cleanch="sudo pacman -Scc"
 alias fixpacman="sudo rm /var/lib/pacman/db.lck"
 
+# Help people new to Arch
+alias apt="man pacman"
+alias apt-get="man pacman"
+alias please="sudo"
+alias tb="nc termbin.com 9999"
+
+# Cleanup orphaned packages
+alias cleanup="sudo pacman -Rsn (pacman -Qtdq)"
+
+# Get the error messages from journalctl
+alias jctl="journalctl -p 3 -xb"
+
+# Recent installed packages
+alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
+
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 # Fish-like syntax highlighting and autosuggestions
