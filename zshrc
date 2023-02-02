@@ -1,1 +1,1 @@
-source /usr/share/cachyos-zsh-settings/cachyos-config.zsh
+source /usr/share/cachyos-zsh-config/cachyos-config.zsh
