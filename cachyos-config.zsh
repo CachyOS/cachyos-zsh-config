@@ -57,13 +57,6 @@ export HISTIGNORE="&:[bf]g:c:clear:history:exit:q:pwd:* --help"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-# Prefer US English and use UTF-8 encoding.
-
-export LANG="en_US"
-export LC_ALL="en_US.UTF-8"
-
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
 # Use custom `less` colors for `man` pages.
 
 export LESS_TERMCAP_md="$(tput bold 2> /dev/null; tput setaf 2 2> /dev/null)"
