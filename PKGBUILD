@@ -2,7 +2,7 @@
 
 pkgname=cachyos-zsh-config
 pkgver=1.0.0
-pkgrel=2
+pkgrel=3
 pkgdesc="Zsh configuration for CachyOS"
 arch=(any)
 url="https://github.com/CachyOS/$pkgname"
@@ -27,5 +27,6 @@ pkgver() {
 
 package() {
     cd $srcdir/$pkgname
-    install -D -m644 zshrc $pkgdir/etc/skel/.zshrc
+    install -D -m644 zshrc "$pkgdir/etc/skel/.zshrc"
+    install -D -m644 zsh_profile "$pkgdir/etc/skel/.zsh_profile"
 }

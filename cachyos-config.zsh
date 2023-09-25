@@ -5,20 +5,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# Enable Wayland support for different applications
-if [ "$XDG_SESSION_TYPE" = "wayland" ]; then
-    export WAYLAND=1
-    export QT_QPA_PLATFORM='wayland;xcb'
-    export GDK_BACKEND='wayland,x11'
-    export MOZ_DBUS_REMOTE=1
-    export MOZ_ENABLE_WAYLAND=1
-    export _JAVA_AWT_WM_NONREPARENTING=1
-    export BEMENU_BACKEND=wayland
-    export CLUTTER_BACKEND=wayland
-    export ECORE_EVAS_ENGINE=wayland_egl
-    export ELM_ENGINE=wayland_egl
-fi
-
 
 # Path to your oh-my-zsh installation.
 export ZSH="/usr/share/oh-my-zsh"
