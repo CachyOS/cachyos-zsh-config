@@ -28,5 +28,5 @@ pkgver() {
 package() {
     cd $srcdir/$pkgname
     install -D -m644 zshrc "$pkgdir/etc/skel/.zshrc"
-    install -D -m644 zsh_profile "$pkgdir/etc/skel/.zsh_profile"
+    install -D -m644 zsh_profile "$pkgdir/etc/skel/.zprofile"
 }
