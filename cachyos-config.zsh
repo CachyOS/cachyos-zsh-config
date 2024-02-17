@@ -68,6 +68,7 @@ alias c="clear"
 alias rmpkg="sudo pacman -Rsn"
 alias cleanch="sudo pacman -Scc"
 alias fixpacman="sudo rm /var/lib/pacman/db.lck"
+alias update="sudo pacman -Syu"
 
 # Help people new to Arch
 alias apt="man pacman"
