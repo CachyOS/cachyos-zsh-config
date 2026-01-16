@@ -39,7 +39,7 @@ export HISTCONTROL=ignoreboth
 
 # Don't add certain commands to the history file.
 
-export HISTIGNORE="&:[bf]g:c:clear:history:exit:q:pwd:* --help"
+export HISTORY_IGNORE="(\&|[bf]g|c|clear|history|exit|q|pwd|* --help)"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
